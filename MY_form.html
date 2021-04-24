@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> MY FORM</title>
+</head>
+<body>
+    <h1> MY FORM</h1>
+    <form action= “backend.php”>
+
+    <div>
+        <label for="name"> <strong>Name:</strong>  </label>
+        <input type="text" name = "MyName" id = "name">
+    </div>
+    <br>
+
+    <div>
+        <label for="email"> <strong>Email:</strong>  </label>
+        <input type="email" name = "Myemail" id = "email">
+    </div>
+    <br>
+    
+
+    <div>
+        <label for="Roll_no"> <strong>Roll_no:</strong>  </label>
+        <input type="text" name = "Myroll_no" id = "Roll_no">
+    </div>
+    <br>
+
+    <div>
+        <label for="Branch"> <strong>Branch:</strong> </label>
+        <input type="text" name = "MyBranh" id = "Branch">
+    </div>
+    <br>
+
+
+    <div>
+        <label for="Date of birth"> <strong>DOB:</strong> </label>
+        <input type="date" name = "MyDOB" id = "Date of birth">
+    </div>
+    <br>
+
+    <div>
+        <label for="year"> <strong>No of Gap year:</strong> </label>
+        <input type="number" name = "Mygap" id = "year">
+    </div>
+    <br>
+
+    <div>
+        <label for="Gender"> <strong>Gender: </strong>  </label>
+         Male <input type="radio" name="myGender" id = "Gender"> Female <input type="radio" name="myGender" id = "Gender">
+        Other <input type="radio" name="myGender" id = "Gender" >
+    </div>
+    <br>
+
+    <div>
+        <label for="College"><strong>College: </strong></label>
+        <select name="myCollege" id="College">
+            <option value="M.B.M Enginnering College" selected> M.B.M Enginnering College  </option>
+            <option value="LMNIT Enginnering College"> LMNIT Enginnering College</option>
+            <option value="MNIT Enginnering College"> MNIT Enginnering College</option>
+            <option value="PURMIMA Enginnering College"> PURMIMA Enginnering College</option>
+        </select>
+    </div>
+    <br>
+
+    <div>
+            <label for="lable"> <strong> Write about yourself:</strong> </label>
+             <br><textarea name="myText" cols="120" rows="15" id = "lable"></textarea>
+    </div>
+    <br>
+
+    <div>
+        <input type = "submit" value="Submit Now">
+        <input type = "reset" value="Reset Now">
+    </div>
+    <br>
+</form>
+</body>
+</html>
